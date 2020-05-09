@@ -1,0 +1,94 @@
+/**
+ * Add your custom styles below
+ * 
+ * Remember: 
+ * - Be organised, use comments and separate your styles into meaningful chunks
+ *    for example: General styles, Navigation styles, Hero styles, Footer etc.
+ * 
+ */
+
+body {
+  background-color: black;
+}
+h1 {
+  /*border: 5px solid yellow;*/
+  margin-top: auto;
+  width: auto;
+  margin-bottom: auto;
+  background-color: rgb(67, 75, 83);
+  color: orange;
+  text-align: center;
+  font-size: 6rem;
+}
+.nav {
+  width: max-content;
+  margin-left: 150px;
+  margin-bottom: 10px;
+  border: 2px dashed green;
+  border-top: none;
+  list-style: none;
+  text-align: center;
+}
+.nav li {
+  display: inline;
+  /*border: 2px solid yellow;*/
+  margin-inline-start: auto;
+  margin: 60px;
+}
+.nav a {
+  text-decoration: none;
+  color: wheat;
+}
+.nav a:hover {
+  color: tomato;
+/* font-size: 30px; */
+}
+article {
+  height: 550px;
+  color: wheat;
+  background-color: rgb(31, 30, 30);
+  margin-bottom: 30px;
+  box-shadow: 12px 12px rgb(14, 13, 13);
+}
+article:first-child {
+  color: orange;
+}
+h2 {
+  background-color: darkolivegreen;
+  color: rgb(35, 46, 13);
+  text-align: center;
+}
+section {
+  width: 80%;
+  /*border: 10px solid purple;*/
+  margin: auto;
+  margin-top: 50px;
+}
+
+img {
+  border: 2px solid black;
+  width: 200px;
+  height: 200px;
+  /*margin-left: 400px;*/
+  /* margin-bottom: 50px;*/
+}
+
+article a {
+  color: tomato;
+}
+
+p:first-of-type::first-letter {
+  font-size: 3rem;
+}
+footer{
+  background-color: olivedrab;
+  text-align: center;
+  font-weight: bold;
+}
+/*
+P:first-of-type{
+    color: orange;
+}
+p{
+    color:whitesmoke;
+}*/
